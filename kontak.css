@@ -1,0 +1,221 @@
+/* Navbar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #163020;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo-img {
+    border-radius: 50%;
+    width: 80px;
+    margin-left: 2rem;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 40px;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    position: relative;
+    /* Diperlukan untuk dropdown */
+    margin-left: 40px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffffff;
+    /* Warna saat hover */
+  }
+  
+  /* Gaya untuk dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #e51f1f;
+    /* Warna saat hover di dropdown */
+  }
+  
+  /* Menampilkan dropdown saat hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Navbar */
+  
+  /* Content */
+  
+  body {
+    margin: 0;
+    /* Menghapus margin default */
+    padding: 0%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-image {
+    background-image: url("assets/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    /* Elemen diatur secara vertikal */
+    align-items: flex-start;
+    /* Teks di kiri */
+    justify-content: center;
+    /* Vertikal center */
+    padding: 50px 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    /* Rata kiri */
+    line-height: 0;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    /* Atur ukuran font sesuai kebutuhan */
+    font-weight: bold;
+    /* Membuat teks tebal */
+  }
+  
+  p {
+    font-size: 25px;
+    /* Atur ukuran font sesuai kebutuhan */
+    padding-left: 5.5px;
+    padding-top: 10px;
+  }
+  
+  .container1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Mengatur gaya untuk teks */
+  .text {
+    padding-top: 10px;
+    color: #224f24;
+    padding-left: 10px;
+    flex: 1;
+    padding-right: 20px;
+    /* Jarak antara teks dan gambar */
+    border-radius: 50px;
+  }
+  
+  /* Mengatur gaya untuk gambar */
+  .image {
+    padding-top: 30px;
+    width: 500px;
+    /* Lebar gambar */
+    height: auto;
+    margin: 5%;
+  }
+  
+  .highlighted-text {
+    text-align: left;
+    justify-content: left;
+    background-color: #eeefe7;
+    /* Warna latar belakang */
+    color: rgb(3, 3, 3);
+    /* Warna teks */
+    padding: 20px;
+    /* Jarak antara teks dan latar belakang */
+    border-radius: 10px;
+    /* Sudut melengkung */
+    box-shadow: 7px 5px 5px 0px;
+    margin-left: 20px;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  
+  /* Content */
+  
+  /* About Section */
+  #about {
+    background-color: #ffffff;
+    padding: 20px 20px 10px 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .section-title-about {
+    text-align: center;
+    margin: 1rem 0 2rem;
+  }
+
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #2E6930;
+    background-color: #EEEFE7;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],  
+  
+  textarea {
+    width: 100%;
+    padding:5px;
+    border: 2px solid #2E6930;
+  }
+  
+  input[type="submit"] {
+    background-color: #2E6930; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    margin: 4px 2px;
+    cursor: pointer; 
+  
+  }
